@@ -17,3 +17,9 @@ git pull origin main
 # 온라인의 파일을 로컬로 동기화
 git push origin main 
 #로컬파일을 온라인으로 동기화
+
+
+git status 
+git add .
+git commit -m "메시지"
+git push origin main
