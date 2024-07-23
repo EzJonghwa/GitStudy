@@ -1,3 +1,19 @@
+저장소 등록
+git init
+ech "hellogit" >READme.md
+
+
+
+메인 브랜치 변경
 git config --global init.defaultBranch main
 git branch -m master main
 git branch
+
+온라인 저장소 연결
+git remote origin 본인 git 주소
+git push -u origin main
+
+git pull origin main
+# 온라인의 파일을 로컬로 동기화
+git push origin main 
+#로컬파일을 온라인으로 동기화
